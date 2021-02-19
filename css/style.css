@@ -39,6 +39,16 @@ main {
     margin-right: 20px;
 }
 
+.filled {
+    color: gold;
+    font-size: 0.8em;
+}
+
+.unfilled {
+    color: lightgray;
+    font-size: 0.8em;
+}
+
 /* use media query to make website responsive on tablet and mobile */
 @media (max-width:992px) {
     .top-players {
