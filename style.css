@@ -9,14 +9,22 @@ main {
     margin: 0 auto;  
 }
 
-.top-players {
+.top-players, .blogs {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
     margin-top: 20px;
+    place-items: center;
 }
 
-.player {
+.top-players {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.blogs {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.player, .blog {
     display: flex;
     align-items: center;
 }
@@ -26,15 +34,27 @@ main {
     margin-right: 20px;
 }
 
+.thumbnail img {
+    width: 200px;
+    margin-right: 20px;
+}
+
 /* use media query to make website responsive on tablet and mobile */
 @media (max-width:992px) {
     .top-players {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
 @media (max-width:668px) {
     .top-players {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .blog {
+        display: block;
     }
 }
