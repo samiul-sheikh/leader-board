@@ -8,12 +8,12 @@
 
 ### `Live Site`
 ## :link: [view leader board](https://samiul-sheikh.github.io/leader-board/)
-
 ### `Project Features`
+
 • User interface is looking great.\
 • a responsive single page frontend design complete.\
+• Using external icons and fonts. \
 • In this page three types of sections(Top Player, Top Blog, Latest Course).
-• Using external icons and fonts.
 
 ### `This Project Is Responsive?`
 
